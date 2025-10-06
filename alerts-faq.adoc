@@ -18,25 +18,25 @@ Diese FAQ können hilfreich sein, wenn Sie nur eine schnelle Antwort auf eine Fr
 
 == Zugriff auf NetApp -Warnmeldungen
 
-*Wie lautet die URL für NetApp -Warnmeldungen?*  Geben Sie als URL in einem Browser Folgendes ein: https://console.netapp.com/["https://console.netapp.com/"^] um auf die NetApp Konsole zuzugreifen.
+*Wie lautet die URL für NetApp -Warnmeldungen?*  Geben Sie als URL in einem Browser Folgendes ein: https://console.netapp.com/["https://console.netapp.com/"^] um auf die NetApp Console zuzugreifen.
 
 *Benötigen Sie eine Lizenz, um NetApp -Warnmeldungen zu verwenden?*
 
-Für die Verwendung von NetApp -Warnmeldungen ist eine Lizenz für NetApp ONTAP 9.10 oder höher erforderlich.  Die Lizenz muss nicht in die digitale Geldbörse der NetApp Konsole eingegeben werden.
+Für die Verwendung von NetApp -Warnmeldungen ist eine Lizenz für NetApp ONTAP 9.10 oder höher erforderlich.  Die Lizenz muss nicht in die digitale Geldbörse der NetApp Console eingegeben werden.
 
 Für NetApp -Warnmeldungen benötigen Sie keine Testlizenz.
 
-*Wie aktivieren Sie NetApp -Warnmeldungen?*  Für NetApp -Warnmeldungen ist keine Aktivierung erforderlich.  Die Warnoption wird in der linken Navigation der NetApp Konsole automatisch aktiviert.
+*Wie aktivieren Sie NetApp -Warnmeldungen?*  Für NetApp -Warnmeldungen ist keine Aktivierung erforderlich.  Die Warnoption wird in der linken Navigation der NetApp Console automatisch aktiviert.
 
 Um loszulegen: Wenn Sie den Konsolenagenten verwenden, enthält er die entsprechenden Funktionen für NetApp -Warnmeldungen.
 
-**Sind NetApp -Warnmeldungen im Standard-, eingeschränkten und privaten Modus verfügbar?**  NetApp Warnmeldungen können nur in der NetApp Konsole (Standard) (öffentlich) bereitgestellt werden.
+**Sind NetApp -Warnmeldungen im Standard-, eingeschränkten und privaten Modus verfügbar?**  NetApp Warnmeldungen können nur in der NetApp Console (Standard) (öffentlich) bereitgestellt werden.
 
-Eine Erläuterung dieser Modi für alle NetApp Konsolendienste finden Sie unter https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Bereitstellungsmodi der NetApp Konsole"^] .
+Eine Erläuterung dieser Modi für alle NetApp Console finden Sie unter https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Bereitstellungsmodi der NetApp Console"^] .
 
-**Wie werden Zugriffsberechtigungen gehandhabt?**  Nur Administratoren der NetApp Konsolenorganisation können NetApp Warnmeldungen auslösen und Workloads ermitteln (da dies die Verpflichtung zur Nutzung einer Ressource beinhaltet).
+**Wie werden Zugriffsberechtigungen gehandhabt?**  Nur Administratoren der NetApp Console Konsolenorganisation können NetApp Warnmeldungen auslösen und Workloads ermitteln (da dies die Verpflichtung zur Nutzung einer Ressource beinhaltet).
 
-Angemeldeten Benutzern werden je nach ihrem Zugriff auf die Clusterressource in dieser NetApp Konsolenorganisation Warnmeldungen angezeigt.
+Angemeldeten Benutzern werden je nach ihrem Zugriff auf die Clusterressource in dieser NetApp Console Konsolenorganisation Warnmeldungen angezeigt.
 
 
 

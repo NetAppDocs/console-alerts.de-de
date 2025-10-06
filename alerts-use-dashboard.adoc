@@ -30,7 +30,7 @@ Der Schweregrad des EMS wird dem Schweregrad der ONTAP Warnmeldungen auf folgend
 
 [cols="40,40"]
 |===
-| Schweregrad der EMS-Warnung: | Schweregrad der NetApp Konsolenwarnung: 
+| Schweregrad der EMS-Warnung: | Schweregrad der NetApp Console : 
 
 
 | Alarm oder Notfall | kritisch 
@@ -146,7 +146,7 @@ Weitere Informationen zu ONTAP -Warnmeldungen finden Sie in der ONTAP Dokumentat
 == ONTAP -Speicherprobleme anzeigen
 
 .Schritte
-. link:alerts-start-login.html["Melden Sie sich bei der NetApp Konsole an"] .
+. link:alerts-start-login.html["Melden Sie sich bei der NetApp Console an"] .
 . Wählen Sie in der linken Navigationsleiste der Konsole *Speicher* > *Warnungen* aus.
 +
 Nach der Erkennung wird auf der Seite „Warnungsliste“ eine Liste der Warnungen in Ihrem ONTAP System angezeigt.
@@ -169,7 +169,7 @@ image:alerts-dashboard-capacity-filter.png["Seite „Warnungen“ mit den Filter
 +
 Sie können bis zu 1000 Benachrichtigungen herunterladen.  Die Datei enthält Daten basierend auf den eingestellten Filtern.
 
-** Wählen Sie eine Warnung aus und führen Sie einen Drilldown in die Warnungsdetails dieses Clusters durch. Sehen link:alerts-use-alerts.html["Anzeigen von Warnungsdetails"] .
+** Wählen Sie eine Warnung aus und führen Sie einen Drilldown zu den Warnungsdetails für diesen Cluster durch. Sehen link:alerts-use-alerts.html["Anzeigen von Warnungsdetails"] .
 
 
 

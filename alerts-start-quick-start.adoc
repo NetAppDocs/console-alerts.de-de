@@ -20,7 +20,7 @@ link:alerts-start-prerequisites.html["Stellen Sie sicher, dass Ihre Umgebung die
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Zwei"]ONTAP Warnmeldungen einrichten
 [role="quick-margin-para"]
-link:alerts-start-setup.html["Konfigurieren eines Konsolenagenten in der NetApp -Konsole"] .
+link:alerts-start-setup.html["Konfigurieren eines Konsolenagenten in der NetApp Console"] .
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Drei"]Wie geht es weiter?
 [role="quick-margin-para"]

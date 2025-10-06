@@ -18,7 +18,7 @@ Zeigen Sie Warnmeldungen zu Ihrem ONTAP Speichersystem an und gehen Sie ins Deta
 
 == Anzeigen von Warnungsdetails
 
-. link:alerts-start-login.html["Melden Sie sich bei der NetApp Konsole an"] .
+. link:alerts-start-login.html["Melden Sie sich bei der NetApp Console an"] .
 . Wählen Sie in der linken Navigationsleiste der Konsole *Speicher* > *Warnungen* aus.
 . Wählen Sie auf der Seite „Warnungsliste“ eine Warnung aus.
 +

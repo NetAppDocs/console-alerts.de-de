@@ -10,7 +10,7 @@ Sie können ONTAP Cluster mit geringer Kapazität oder geringer Leistung schnell
 
 
 
-=== Alarmdetails
+=== Details zu Warnungen
 
 Sie können sich die Alarmdetails genauer ansehen und Empfehlungen finden.
 
