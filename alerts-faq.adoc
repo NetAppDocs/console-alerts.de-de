@@ -1,0 +1,65 @@
+---
+sidebar: sidebar 
+permalink: alerts-faq.html 
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert 
+summary: Diese häufig gestellten Fragen zu NetApp -Warnmeldungen können hilfreich sein, wenn Sie nur eine schnelle Antwort auf eine Frage suchen. 
+---
+= Häufig gestellte Fragen zu NetApp -Warnmeldungen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Diese FAQ können hilfreich sein, wenn Sie nur eine schnelle Antwort auf eine Frage zu NetApp -Warnmeldungen suchen.
+
+
+
+== Zugriff auf NetApp -Warnmeldungen
+
+*Wie lautet die URL für NetApp -Warnmeldungen?*  Geben Sie als URL in einem Browser Folgendes ein: https://console.netapp.com/["https://console.netapp.com/"^] um auf die NetApp Konsole zuzugreifen.
+
+*Benötigen Sie eine Lizenz, um NetApp -Warnmeldungen zu verwenden?*
+
+Für die Verwendung von NetApp -Warnmeldungen ist eine Lizenz für NetApp ONTAP 9.10 oder höher erforderlich.  Die Lizenz muss nicht in die digitale Geldbörse der NetApp Konsole eingegeben werden.
+
+Für NetApp -Warnmeldungen benötigen Sie keine Testlizenz.
+
+*Wie aktivieren Sie NetApp -Warnmeldungen?*  Für NetApp -Warnmeldungen ist keine Aktivierung erforderlich.  Die Warnoption wird in der linken Navigation der NetApp Konsole automatisch aktiviert.
+
+Um loszulegen: Wenn Sie den Konsolenagenten verwenden, enthält er die entsprechenden Funktionen für NetApp -Warnmeldungen.
+
+**Sind NetApp -Warnmeldungen im Standard-, eingeschränkten und privaten Modus verfügbar?**  NetApp Warnmeldungen können nur in der NetApp Konsole (Standard) (öffentlich) bereitgestellt werden.
+
+Eine Erläuterung dieser Modi für alle NetApp Konsolendienste finden Sie unter https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["Bereitstellungsmodi der NetApp Konsole"^] .
+
+**Wie werden Zugriffsberechtigungen gehandhabt?**  Nur Administratoren der NetApp Konsolenorganisation können NetApp Warnmeldungen auslösen und Workloads ermitteln (da dies die Verpflichtung zur Nutzung einer Ressource beinhaltet).
+
+Angemeldeten Benutzern werden je nach ihrem Zugriff auf die Clusterressource in dieser NetApp Konsolenorganisation Warnmeldungen angezeigt.
+
+
+
+== Warnungen anzeigen
+
+**Wie lange muss ich warten, bis ich Benachrichtigungen erhalte?**
+
+Warten Sie maximal 15 Minuten auf die erste Erkennung und danach maximal 5 Minuten, bis Warnungen angezeigt werden.  Dies ist von Alarm zu Alarm unterschiedlich.
+
+**Warum kann ich die Warnungen für ONTAP im Direktmodus ohne den Konsolenagenten nicht sehen?*
+
+NetApp -Warnmeldungen sind nur über den lokalen Standard-Konsolenagenten verfügbar.  Bei Verwendung des Direktmodus werden die Cluster nicht überwacht und die Warnungen nicht angezeigt.
+
+**Warum verschwinden einige Warnungen von der Warnlistenseite?**
+
+Die Warnfunktion hält einige Warnmeldungen im aktiven Zustand und schließt sie, nachdem entweder die Zählerbedingung erfüllt oder ein bestimmter Zeitraum abgelaufen ist.  Dies ist von Alarm zu Alarm unterschiedlich.
+
+Um alle Warnungen anzuzeigen, wählen Sie den Spaltenfilter „Status“ und dann die Option „Geschlossen“ aus.
+
+
+
+== Anzeige von Informationen
+
+**Welche Geräteauflösung ist am besten?**  Die empfohlene Geräteauflösung für NetApp -Warnmeldungen beträgt 1920 x 1080 oder besser.
+
+**Welchen Browser sollte ich verwenden?**  Jeder moderne Browser funktioniert.

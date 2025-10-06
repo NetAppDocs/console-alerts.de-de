@@ -1,0 +1,93 @@
+---
+sidebar: sidebar 
+permalink: concept-alerts.html 
+keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, NetApp Console alerts 
+summary: Zeigen Sie Probleme oder potenzielle Risiken in Ihrer NetApp ONTAP Umgebung in Bezug auf Kapazität, Leistung, Verfügbarkeit und Sicherheit an.  Mit dem ONTAP System Manager können Sie in die Details einsteigen. 
+---
+= Erfahren Sie mehr über ONTAP -Warnmeldungen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Zeigen Sie mithilfe der NetApp NetApp Probleme oder potenzielle Risiken in Ihren lokalen ONTAP -Systemen an.  Mit dem ONTAP System Manager können Sie in die Details einsteigen.
+
+
+
+== NetApp Konsole
+
+Zeigen Sie ONTAP Warnmeldungen in der NetApp Konsole an.
+
+Die NetApp Konsole ermöglicht eine zentrale Verwaltung von NetApp -Speicher- und Datendiensten in lokalen und Cloud-Umgebungen auf Unternehmensebene. Die Konsole ist für den Zugriff auf und die Nutzung der NetApp -Datendienste erforderlich. Als Verwaltungsschnittstelle ermöglicht es Ihnen, viele Speicherressourcen über eine Schnittstelle zu verwalten. Konsolenadministratoren können den Zugriff auf Speicher und Dienste für alle Systeme innerhalb des Unternehmens steuern.
+
+Sie benötigen weder eine Lizenz noch ein Abonnement, um die NetApp -Konsole zu verwenden. Es fallen nur dann Kosten an, wenn Sie Konsolenagenten in Ihrer Cloud bereitstellen müssen, um die Konnektivität zu Ihren Speichersystemen oder NetApp -Datendiensten sicherzustellen. Einige NetApp -Datendienste, auf die über die Konsole zugegriffen werden kann, sind jedoch lizenz- oder abonnementbasiert.
+
+Erfahren Sie mehr über die https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Konsole"] .
+
+
+
+== Was Sie mit ONTAP -Warnmeldungen tun können
+
+Zeigen Sie ONTAP -Warnmeldungen an, um über Risiken oder potenzielle Risiken in Ihrem ONTAP Speichersystem informiert zu bleiben.  Sie können einige Nicht-EMS-Warnungen und einige EMS-Warnungen sehen.  Sie können Informationen zu diesen Schweregraden und Auswirkungsbereichen sehen:
+
+* *Schweregrade*: Kritisch, Warnung, Informativ
+* *Einflussbereiche*: Kapazität, Leistung, Schutz, Verfügbarkeit, Sicherheit, Konfiguration
+
+
+
+TIP: Die Option „Benachrichtigungen“ oben rechts in der Benutzeroberfläche der NetApp -Konsole überwacht den Status der von der NetApp Konsole ausgeführten Vorgänge, um Ihnen bei der Identifizierung von Problemen zu helfen, die Sie beheben müssen.  Sie können sich diese Benachrichtigungen per E-Mail senden lassen.  Die Option „Benachrichtigungen“ umfasst nicht die Warnungen von ONTAP Alerts.
+
+
+
+== Vorteile der Überwachung von ONTAP -Warnmeldungen
+
+Die Überwachung von ONTAP -Warnmeldungen bietet die folgenden Vorteile:
+
+* Erhalten Sie Warnmeldungen zu Ihrem ONTAP Speicher über alle Cluster hinweg.
+* Zeigen Sie Warnmeldungen in derselben NetApp Konsolen-Benutzeroberfläche an, die Sie für andere Dienste verwenden.
+* Informieren Sie sich über Warnmeldungen zu ONTAP Clustern – beginnen Sie mit der NetApp Konsole und sehen Sie sich die Details im ONTAP System Manager an.
+
+
+
+
+== Kosten
+
+Sie können ONTAP Warnmeldungen mit einer NetApp ONTAP -Lizenz anzeigen.
+
+
+
+== Lizenzierung
+
+Zum Anzeigen von ONTAP -Warnmeldungen ist eine NetApp ONTAP 9.10-Lizenz oder höher erforderlich.
+
+Sie benötigen keine Testlizenz.
+
+ONTAP Warnmeldungen können nur im Standardmodus (öffentlich) der NetApp Konsole angezeigt werden.
+
+
+
+== So funktionieren ONTAP -Warnmeldungen
+
+ONTAP Warnmeldungen sind eine Kernkomponente der NetApp Konsole.  ONTAP Warnmeldungen überwachen ONTAP Cluster und empfangen Warnmeldungsdaten von ONTAP.
+
+ONTAP -Warnmeldungen sind nur in der NetApp Console SaaS-Umgebung verfügbar.  Es ist in einer lokalen Konsolen-Agent-Benutzeroberfläche nicht verfügbar.
+
+
+
+== Unterstützte Systeme und Datenquellen
+
+Verwenden Sie ONTAP Warnmeldungen, um Probleme in den folgenden Systemen und Datenquellen zu überprüfen.
+
+*Unterstützte Systeme*
+
+Ein lokales ONTAP NAS- oder SAN-System wird unterstützt.
+
+Cloud Volumes ONTAP -Systeme werden derzeit nicht unterstützt.
+
+*Unterstützte Datenquellen*
+
+Zeigen Sie Warnungen zu bestimmten Ereignissen an, die in ONTAP auftreten.  Sie sind eine Kombination aus EMS- und metrischen Warnungen.

@@ -1,0 +1,175 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: Erhalten Sie auf einen Blick Informationen zum Zustand Ihrer ONTAP Umgebung.  Sie können ONTAP Cluster mit geringer Kapazität oder geringer Leistung schnell identifizieren, das Ausmaß der Verfügbarkeit einschätzen, die Verfügbarkeit bestimmen und Sicherheitsrisiken erkennen. 
+---
+= Zeigen Sie potenzielle Risiken im ONTAP Speicher mithilfe der Warnlistenseite an
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Informieren Sie sich auf einen Blick über die potenziellen Risiken in Ihrem ONTAP System.  Sie können ONTAP Cluster mit geringer Kapazität oder geringer Leistung schnell identifizieren, das Ausmaß der Verfügbarkeit einschätzen, die Verfügbarkeit bestimmen und Sicherheitsrisiken erkennen.
+
+Sie können Informationen zu diesen Schweregraden und Auswirkungsbereichen sehen:
+
+* *Schweregrade*: Kritisch, Warnung, Informativ
+* *Einflussbereiche*: Kapazität, Leistung, Verfügbarkeit, Schutz, Sicherheit, Konfiguration
+
+
+
+
+== Möglicherweise angezeigte Warnungen
+
+Hier sind einige der angezeigten Warnungen.
+
+Der Schweregrad des EMS wird dem Schweregrad der ONTAP Warnmeldungen auf folgende Weise zugeordnet:
+
+[cols="40,40"]
+|===
+| Schweregrad der EMS-Warnung: | Schweregrad der NetApp Konsolenwarnung: 
+
+
+| Alarm oder Notfall | kritisch 
+
+
+| Fehler | Keine 
+
+
+| Niedrig | Warnung 
+
+
+| beachten | informativ 
+
+
+| informativ | informativ 
+|===
+.Liste der Warnungen
+[%collapsible]
+====
+Warnungen mit kritischem Schweregrad:
+
+* Aggregatzustand ist nicht online
+* Festplattenfehler
+* Die SnapMirror -Verzögerungszeit ist hoch
+* Volumestatus offline
+* Prozentsatz der Volumennutzung überschritten
+
+
+EMS-Warnungen:
+
+* Antivirus-Server ausgelastet
+* AWS-Anmeldeinformationen nicht initialisiert
+* Cloud-Ebene nicht erreichbar
+* Festplatte außer Betrieb
+* Stromversorgung für Festplattenregal entdeckt
+* Stromversorgung der Festplatten-Shelves entfernt
+* Neusynchronisierung der FabricPool Spiegelreplikation abgeschlossen
+* FabricPool Speicherplatznutzungslimit fast erreicht
+* FabricPool Speicherplatznutzungslimit erreicht
+* FC-Zielportbefehle überschritten
+* Rückgabe des Speicherpools fehlgeschlagen
+* HA-Verbindung ausgefallen
+* LUN zerstört
+* LUN offline
+* Lüfter der Haupteinheit ausgefallen
+* Lüfter der Haupteinheit im Warnzustand
+* Max. Sitzungen pro Benutzer überschritten
+* Maximale Anzahl der Öffnungen pro Datei überschritten
+* Automatische ungeplante Umschaltung von MetroCluster deaktiviert
+* MetroCluster -Überwachung
+* NetBIOS-Namenskonflikt
+* NFSv4-Sondenpool erschöpft
+* Knotenpanik
+* Wenig Speicherplatz im Knotenstammdatenträger
+* Nicht vorhandene Administratorfreigabe
+* Nicht reagierender Antivirenserver
+* Keine registrierte Scan-Engine
+* Keine Vscan-Verbindung
+* NVMe-Namespace zerstört
+* NVMe-Namespace offline
+* NVMe-Namespace online
+* NVMe-oF-Lizenz-Karenzzeitraum aktiv
+* Nachfrist für NVMe-oF-Lizenz abgelaufen
+* Beginn der Nachfrist für NVMe-oF-Lizenzen
+* NVRAM -Batterie schwach
+* Objektspeicherhost nicht auflösbar
+* Objektspeicher Intercluster LIF ausgefallen
+* Nichtübereinstimmung der Objektspeichersignatur
+* QoS-Monitorspeicher voll ausgelastet
+* Ransomware-Aktivität erkannt
+* Die Verlagerung des Speicherpools ist fehlgeschlagen
+* ONTAP Mediator hinzugefügt
+* ONTAP Mediator nicht erreichbar
+* ONTAP Mediator nicht erreichbar
+* ONTAP Mediator entfernt
+* READDIR-Zeitüberschreitung
+* SAN-Status „Aktiv-Aktiv“ geändert
+* Heartbeat des Serviceprozessors fehlt
+* Heartbeat des Serviceprozessors gestoppt
+* Serviceprozessor offline
+* Serviceprozessor nicht konfiguriert
+* Schattenkopie fehlgeschlagen
+* SFP im FC-Zieladapter empfängt niedrigen Strom
+* SFP im FC-Zieladapter überträgt geringe Leistung
+* Regallüfter defekt
+* SMBC CA-Zertifikat abgelaufen
+* SMBC CA-Zertifikat läuft ab
+* SMBC-Client-Zertifikat abgelaufen
+* SMBC-Client-Zertifikat läuft ab
+* SMBC-Beziehung nicht synchron
+* SMBC-Serverzertifikat abgelaufen
+* SMBC-Serverzertifikat läuft ab
+* SnapMirror -Beziehung nicht synchron
+* Ausfall der Stromversorgung des Speicherswitches
+* Storage-VM-Anti-Ransomware-Überwachung
+* Speicher-VM erfolgreich gestoppt
+* Das System kann aufgrund eines Lüfterfehlers der Haupteinheit nicht betrieben werden
+* Zu viele CIFS-Authentifizierungen
+* Nicht zugewiesene Datenträger
+* Unbefugter Benutzerzugriff auf die Administratorfreigabe
+* Virus erkannt
+* Umfangreiche Anti-Ransomware-Überwachung
+* Automatische Größenanpassung des Volumes erfolgreich
+* Volume offline
+* Volumenbeschränkt
+
+
+====
+Weitere Informationen zu ONTAP -Warnmeldungen finden Sie in der ONTAP Dokumentation und in den ONTAP System Manager-Informationen unter https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["ONTAP System Manager-Einblicke in Kapazitäts-, Sicherheits- und Konfigurationsprobleme"^] .
+
+
+
+== ONTAP -Speicherprobleme anzeigen
+
+.Schritte
+. link:alerts-start-login.html["Melden Sie sich bei der NetApp Konsole an"] .
+. Wählen Sie in der linken Navigationsleiste der Konsole *Speicher* > *Warnungen* aus.
++
+Nach der Erkennung wird auf der Seite „Warnungsliste“ eine Liste der Warnungen in Ihrem ONTAP System angezeigt.
+
++
+Zwischen dem Eintreten eines Ereignisses und der Anzeige durch ONTAP Warnmeldungen kann eine Verzögerung auftreten.
+
+. Auf der Seite mit der Warnmeldungsliste können Sie Folgendes anzeigen und ausführen:
++
+** Ändern Sie die Sortierreihenfolge, indem Sie den Aufwärts- oder Abwärtspfeil für eine Spalte auswählen.
+** Ändern Sie den Filter in den Spalten, um nur die gewünschten Informationen anzuzeigen.
++
+
+TIP: Beispielsweise möchten Sie möglicherweise nur die Warnungen sehen, die sich auf die Kapazität beziehen.  Wählen Sie dazu das Filtersymbol in der Spalte „Auswirkungsbereich“, wählen Sie „Kapazität“ und wählen Sie „Übernehmen“ aus.
+
++
+image:alerts-dashboard-capacity-filter.png["Seite „Warnungen“ mit den Filtern für den Auswirkungsbereich"]
+
+** Laden Sie eine CSV-Datei mit den Warninformationen herunter.
++
+Sie können bis zu 1000 Benachrichtigungen herunterladen.  Die Datei enthält Daten basierend auf den eingestellten Filtern.
+
+** Wählen Sie eine Warnung aus und führen Sie einen Drilldown in die Warnungsdetails dieses Clusters durch. Sehen link:alerts-use-alerts.html["Anzeigen von Warnungsdetails"] .
+
+
+

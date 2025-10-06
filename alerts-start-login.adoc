@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-login.html 
+keywords: NetApp Console login, log in, ontap, netapp 
+summary: Beginnen Sie mit ONTAP Warnmeldungen, indem Sie in der NetApp Konsole auf ONTAP -Warnmeldungen zugreifen. 
+---
+= Zugriff auf ONTAP -Warnmeldungen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie verwenden die NetApp Konsole, um ONTAP -Warnungen anzuzeigen.
+
+Um sich bei der NetApp Konsole anzumelden, können Sie Ihre Anmeldeinformationen für die NetApp -Support-Site verwenden oder sich mit Ihrer E-Mail-Adresse und einem Kennwort für eine NetApp Cloud-Anmeldung anmelden. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Erfahren Sie mehr über die Anmeldung"^] .
+
+.Schritte
+. Öffnen Sie einen Webbrowser und gehen Sie zu https://console.netapp.com/["NetApp Konsole"^] .
++
+Die Anmeldeseite der Konsole wird angezeigt.
+
+. Melden Sie sich bei der Konsole an.
+. Wählen Sie in der linken Navigationsleiste der Konsole *Speicher* > *Warnungen* aus.
++
+Die Seite mit der Warnmeldungsliste wird angezeigt.
+
++
+image:alerts-dashboard.png["ONTAP -Warnungslistenseite"]
+
+

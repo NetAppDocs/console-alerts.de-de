@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-prerequisites.html 
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites, ontap alerts 
+summary: Beginnen Sie mit ONTAP -Warnmeldungen, indem Sie die Unterstützung für Ihre Umgebung, Ihren Netzwerkzugriff, Ihre Anmeldung und Ihren Webbrowser überprüfen. 
+---
+= Voraussetzungen für ONTAP -Warnmeldungen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+Beginnen Sie mit ONTAP -Warnmeldungen, indem Sie die Bereitschaft Ihrer Betriebsumgebung überprüfen.
+
+Um ONTAP -Warnmeldungen anzuzeigen, benötigen Sie folgende Voraussetzungen:
+
+* ONTAP 9.10 und höher.  Das lokale System muss auf der Seite „NetApp -Konsolensysteme“ erkannt werden.
++
+** Cluster-Admin- ONTAP Berechtigungen
++
+Die Lizenz muss nicht in die digitale Geldbörse der NetApp Konsole eingegeben werden.
+
+
+
+* In der NetApp Konsole:
++
+** Ein NetApp Konsolensystem mit NetApp -NAS- oder SAN-Speicher vor Ort
+** In der NetApp Konsole muss ein Konsolenagent für eine lokale Region eingerichtet werden. Siehe https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["NetApp Konsolendokumentation zum Konfigurieren des Konsolenagenten"^] .
++
+Wenn ein Cluster aus dem Konsolenagenten entfernt wird, bleiben die mit diesem Cluster verbundenen Warnungen 90 Tage lang bestehen.  Wenn Sie den Konsolenagenten ändern, bleiben die Warnungen 90 Tage lang mit dem ursprünglichen Cluster und Agenten verknüpft.  Wenn Sie zum ursprünglichen Agenten zurückkehren, werden diese Warnungen erneut angezeigt.
+
+** Eine NetApp Konsolenorganisation mit mindestens einem aktiven Konsolenagenten, der eine Verbindung zu lokalen ONTAP Clustern herstellt.  Alle Quellen und Systeme müssen sich in derselben NetApp Konsolenorganisation befinden.
+** Ein NetApp -Konsolenbenutzer in dieser Organisation mit Organisationsadministratorberechtigungen zum Erkennen von Ressourcen
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Standardanforderungen für die NetApp -Konsole"^]
+
+
+

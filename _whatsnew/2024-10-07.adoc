@@ -1,0 +1,23 @@
+= BlueXP alerts
+:allow-uri-read: 
+
+
+
+
+=== BlueXP alerts
+
+Sie können ONTAP Cluster mit geringer Kapazität oder geringer Leistung schnell identifizieren, das Ausmaß der Verfügbarkeit einschätzen und Sicherheitsrisiken erkennen.  Sie können Warnungen zu Kapazität, Leistung, Schutz, Verfügbarkeit, Sicherheit und Konfiguration anzeigen.
+
+
+
+=== Alarmdetails
+
+Sie können sich die Alarmdetails genauer ansehen und Empfehlungen finden.
+
+
+
+=== Mit ONTAP System Manager verknüpfte Clusterdetails anzeigen
+
+Mit BlueXP alerts können Sie Warnmeldungen im Zusammenhang mit Ihrer ONTAP Speicherumgebung anzeigen und die mit ONTAP System Manager verknüpften Details genauer untersuchen.
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Erfahren Sie mehr über BlueXP alerts"] .

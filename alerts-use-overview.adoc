@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-overview.html 
+keywords: alerts, alerts, ontap, netapp 
+summary: Mithilfe von NetApp -Warnmeldungen können Sie den Zustand der Workloads anzeigen und Workloads schützen. 
+---
+= Übersicht über ONTAP -Warnmeldungen anzeigen
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Zeigen Sie Speicherprobleme an und sehen Sie sich Details mit Links direkt zum ONTAP System Manager an.
+
+* link:alerts-use-dashboard.html["Anzeigen von Speicherproblemen oder potenziellen Risiken auf der Seite mit der Warnliste"] .
+* link:alerts-use-alerts.html["Anzeigen von Warndetails, die im ONTAP System Manager verknüpft sind"] .
+

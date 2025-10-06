@@ -1,0 +1,40 @@
+---
+indexpage:
+  title: ONTAP Warnmeldungen – Dokumentation
+  summary: Zeigen Sie Probleme oder potenzielle Risiken in Ihrer NetApp ONTAP Umgebung
+    an.  Mit dem ONTAP System Manager können Sie Alarmdetails aufschlüsseln und Clusterinformationen
+    anzeigen.
+  keywords: bluexp, ONTAP, alerts, system manager
+  lead: Zeigen Sie Probleme oder potenzielle Risiken in Ihrer NetApp ONTAP Umgebung
+    in Bezug auf Kapazität, Leistung, Schutz, Verfügbarkeit und Sicherheit an.  Sie
+    können Alarmdetails aufschlüsseln und Clusterinformationen anzeigen, die mit ONTAP
+    System Manager verknüpft sind.
+  tiles:
+  - title: Erste Schritte
+    links:
+    - title: Erfahren Sie mehr über ONTAP -Warnmeldungen
+      url: "/concept-alerts.html"
+    - title: Was ist neu bei ONTAP Warnmeldungen?
+      url: "/whats-new.html"
+    - title: Voraussetzungen
+      url: "/alerts-start-prerequisites.html"
+    - title: Schnellstart
+      url: "/alerts-start-quick-start.html"
+    - title: ONTAP Warnmeldungen einrichten
+      url: "/alerts-start-setup.html"
+    - title: FAQ
+      url: "/alerts-faq.html"
+  - title: Verwenden Sie ONTAP -Warnmeldungen
+    links:
+    - title: Übersicht über ONTAP -Warnmeldungen anzeigen
+      url: "/alerts-use-overview.html"
+    - title: Anzeigen des Workload-Zustands mithilfe der Seite „Warnungsliste“
+      url: "/alerts-use-dashboard.html"
+  - title: Blogs und Community
+    links:
+    - title: NetApp Konsole
+      url: https://www.netapp.com/console
+    - title: NetApp Datenservices
+      url: https://www.netapp.com/data-services/
+    - title: NetApp Community
+      url: https://community.netapp.com

@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-setup.html 
+keywords: bluexp, alerts, ontap, netapp 
+summary: Um ONTAP Warnmeldungen anzuzeigen, führen Sie zur Einrichtung einige Schritte aus. 
+---
+= ONTAP Warnmeldungen einrichten
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Um ONTAP -Warnmeldungen zu verwenden, führen Sie zur Einrichtung einige Schritte aus.
+
+Bevor Sie beginnen, überprüfen Sielink:alerts-start-prerequisites.html["Voraussetzungen"] um sicherzustellen, dass Ihre Umgebung bereit ist.
+
+Rezension https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Standardanforderungen für die NetApp -Konsole"^] .
+
+
+
+== Zugriff auf Clusterressourcen
+
+Um die Warnungen anzuzeigen, muss der angemeldete Benutzer Teil der NetApp -Konsolenorganisation sein und über den erforderlichen Zugriff auf die Clusterressource verfügen.
+
+
+
+== Erstellen des Konsolenagenten
+
+Sie sollten sich an Ihren NetApp -Vertriebsmitarbeiter wenden, um ONTAP Warnmeldungen auszuprobieren oder zu verwenden.  Wenn Sie dann den Konsolenagenten verwenden, enthält dieser die entsprechenden Funktionen für ONTAP -Warnmeldungen.
+
+Informationen zum Erstellen des Konsolenagenten in der NetApp Konsole finden Sie in der BlueXP Dokumentation. Dort wird beschrieben, https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["So erstellen Sie einen Konsolenagenten"^] .
+
+Nachdem Sie den Konsolenagenten eingerichtet und das System hinzugefügt haben, warten Sie etwa 15 Minuten auf die erste Erkennung.

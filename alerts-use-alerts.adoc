@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-alerts.html 
+keywords: alerts, ontap, netapp, system manager, bluexp 
+summary: Mit NetApp -Warnmeldungen können Sie Warnmeldungen im Zusammenhang mit Ihrem ONTAP Speichersystem anzeigen und die mit ONTAP System Manager verknüpften Details genauer untersuchen. 
+---
+= Anzeigen von Warndetails in Ihrem ONTAP Speichersystem
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Zeigen Sie Warnmeldungen zu Ihrem ONTAP Speichersystem an und gehen Sie ins Detail.
+
+
+
+== Anzeigen von Warnungsdetails
+
+. link:alerts-start-login.html["Melden Sie sich bei der NetApp Konsole an"] .
+. Wählen Sie in der linken Navigationsleiste der Konsole *Speicher* > *Warnungen* aus.
+. Wählen Sie auf der Seite „Warnungsliste“ eine Warnung aus.
++
+image:alerts-detail.png["Alarmdetails"]
+
+. Scrollen Sie nach unten, um vorgeschlagene Korrekturmaßnahmen zu finden.
+. Scrollen Sie nach unten, um weitere Warnungen zu finden, die sich auf das Objekt beziehen, für das die Warnung ausgelöst wurde.
+
+
+
+
+== Details zum Cluster im ONTAP System Manager anzeigen
+
+. Wählen Sie auf der Seite „Warnungsliste“ eine Warnung aus.
+. Wählen Sie in der Warnung oben auf der Seite den Clusternamen aus.
++
+ONTAP System Manager zeigt Ihnen jetzt Informationen zum Cluster an.
+
+
