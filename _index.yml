@@ -26,10 +26,10 @@ indexpage:
       url: "/alerts-faq.html"
   - title: Verwenden Sie ONTAP -Warnmeldungen
     links:
-    - title: Übersicht über ONTAP -Warnmeldungen anzeigen
-      url: "/alerts-use-overview.html"
     - title: Anzeigen des Workload-Zustands mithilfe der Seite „Warnungsliste“
       url: "/alerts-use-dashboard.html"
+    - title: Anzeigen von Warnmeldungen in Ihrem Speichersystem
+      url: "/alerts-use-alerts.html"
   - title: Blogs und Community
     links:
     - title: NetApp Console

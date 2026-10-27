@@ -16,6 +16,7 @@ Diese FAQ können hilfreich sein, wenn Sie nur eine schnelle Antwort auf eine Fr
 
 
 
+[[access-to-netapp-alerts]]
 == Zugriff auf NetApp -Warnmeldungen
 
 *Wie lautet die URL für NetApp -Warnmeldungen?*  Geben Sie als URL in einem Browser Folgendes ein: https://console.netapp.com/["https://console.netapp.com/"^] um auf die NetApp Console zuzugreifen.
@@ -40,6 +41,7 @@ Angemeldeten Benutzern werden je nach ihrem Zugriff auf die Clusterressource in 
 
 
 
+[[view-alerts]]
 == Warnungen anzeigen
 
 **Wie lange muss ich warten, bis ich Benachrichtigungen erhalte?**
@@ -58,6 +60,7 @@ Um alle Warnungen anzuzeigen, wählen Sie den Spaltenfilter „Status“ und dan
 
 
 
+[[display-of-information]]
 == Anzeige von Informationen
 
 **Welche Geräteauflösung ist am besten?**  Die empfohlene Geräteauflösung für NetApp -Warnmeldungen beträgt 1920 x 1080 oder besser.
